@@ -12,6 +12,7 @@ import { CrisisListComponent } from './crisis-list/crisis-list.component';
 import { HeroesListComponent } from './heroes-list/heroes-list.component';
 import { NameEditorComponent } from './name-editor/name-editor.component';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
+import { ClickMeComponent } from './click-me/click-me.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ProfileEditorComponent } from './profile-editor/profile-editor.componen
     HeroesListComponent,
     NameEditorComponent,
     ProfileEditorComponent,
+    ClickMeComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +33,7 @@ import { ProfileEditorComponent } from './profile-editor/profile-editor.componen
     RouterModule.forRoot([
       {path: 'crisis-list', component: CrisisListComponent},
       {path: 'heroes-list',component: HeroesListComponent},
+      {path: 'name-editor',component: NameEditorComponent},
     ])
   ],
   providers: [],
