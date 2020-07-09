@@ -13,6 +13,7 @@ import { HeroesListComponent } from './heroes-list/heroes-list.component';
 import { NameEditorComponent } from './name-editor/name-editor.component';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 import { ClickMeComponent } from './click-me/click-me.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ClickMeComponent } from './click-me/click-me.component';
     NameEditorComponent,
     ProfileEditorComponent,
     ClickMeComponent,
+    HighlightDirective,
   ],
   imports: [
     BrowserModule,
