@@ -30,3 +30,6 @@ section {
   justify-content: center;
   width: 120px;
 }
+a{
+  text-decoration: none;
+}

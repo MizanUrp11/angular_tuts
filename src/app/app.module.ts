@@ -34,6 +34,7 @@ import { ClickMeComponent } from './click-me/click-me.component';
       {path: 'crisis-list', component: CrisisListComponent},
       {path: 'heroes-list',component: HeroesListComponent},
       {path: 'name-editor',component: NameEditorComponent},
+      {path: 'user-input',component: ClickMeComponent},
     ])
   ],
   providers: [],

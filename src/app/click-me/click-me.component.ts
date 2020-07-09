@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClickMeComponent implements OnInit {
 
+heroes = ['Windstorm', 'Bombasto', 'Magneta', 'Tornado'];
+addHero(newHero:string){
+  if(newHero){
+    this.heroes.push(newHero);
+  }
+}
   constructor() { }
 
   ngOnInit(): void {
